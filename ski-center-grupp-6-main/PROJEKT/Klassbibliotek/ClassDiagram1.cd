@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SKICENTER.Bokning">
+    <Position X="22.25" Y="9" Width="1.5" />
+    <AssociationLine Name="Personal" Type="SKICENTER.Personal" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="23.75" Y="9.094" />
+        <Point X="24.864" Y="9.094" />
+        <Point X="24.864" Y="8.471" />
+        <Point X="27.125" Y="8.471" />
+        <Point X="27.125" Y="7" />
+        <Point X="27.5" Y="7" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ACDAAEMACAAAAAAAAAAQAACAAAAABIAEAAgAACAAAAA=</HashCode>
+      <FileName>Bokning.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Personal" />
+      <Property Name="Faktura" />
+      <Property Name="Kund" />
+      <Property Name="FKund" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="RumBokning" />
+      <Property Name="LektionBokning" />
+      <Property Name="UtrustningBokning" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="SKICENTER.Faktura">
+    <Position X="18.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIKAAIAAAQAAAAAABAAAMAEAAAACAAAEA=</HashCode>
+      <FileName>Faktura.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SKICENTER.FöretagsKund">
+    <Position X="24.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAACAACAAABAAAAACAAAkABABgAAAAASAAAAE=</HashCode>
+      <FileName>Företagskund.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Personal" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SKICENTER.KonferensPris">
+    <Position X="14" Y="23.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAgAAAAAAAEAAAAAAACAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>KonferensPris.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SKICENTER.Kund">
+    <Position X="21.5" Y="4.75" Width="1.5" />
+    <InheritanceLine Type="SKICENTER.Person" FixedToPoint="true">
+      <Path>
+        <Point X="25.5" Y="3.401" />
+        <Point X="25.5" Y="3.776" />
+        <Point X="22.188" Y="3.776" />
+        <Point X="22.188" Y="4.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Kund.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SKICENTER.Person">
+    <Position X="24.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAEADAAAAAAAAAgAAAAiAAAAAQAAAAA=</HashCode>
+      <FileName>Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SKICENTER.Lektion">
+    <Position X="22.25" Y="20" Width="1.5" />
+    <AssociationLine Name="Lärare" Type="SKICENTER.Personal" ManuallyRouted="true">
+      <Path>
+        <Point X="23.75" Y="21.051" />
+        <Point X="24.073" Y="21.051" Type="JumpStart" />
+        <Point X="24.24" Y="21.051" Type="JumpEnd" />
+        <Point X="24.5" Y="21.051" />
+        <Point X="24.5" Y="17.326" />
+        <Point X="25.698" Y="17.326" Type="JumpStart" />
+        <Point X="25.865" Y="17.326" Type="JumpEnd" />
+        <Point X="28" Y="17.326" />
+        <Point X="28" Y="7.646" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAgEIAAAAAAAAACAAAAAAAAAAAhAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Lektion.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Lärare" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SKICENTER.LogiPris">
+    <Position X="17" Y="23.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAANAAAAAAAAAAEBAAABAAAAAA=</HashCode>
+      <FileName>LogiPris.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SKICENTER.LektionPris">
+    <Position X="21.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAIAAAAAAAAAAAAAAIAAAEAAAAAAIEAAAA=</HashCode>
+      <FileName>LektionPris.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Lektion" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SKICENTER.Personal">
+    <Position X="27.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAACAAACAACAAAAAAAAAAQAAAAAAEAAAA=</HashCode>
+      <FileName>Personal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SKICENTER.Rum">
+    <Position X="19.5" Y="20.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAQAAAAAAAAAAACAAAAAAAAAAAAgAAAAAAAQ=</HashCode>
+      <FileName>Rum.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SKICENTER.Tjänst">
+    <Position X="22.25" Y="24" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACIACAAAAAAAAAAAAAAAAACAAAAAACAAAA=</HashCode>
+      <FileName>Tjänst.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SKICENTER.Utrustning">
+    <Position X="25.25" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAEAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utrustning.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SKICENTER.RumPris">
+    <Position X="15.5" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAIAAAAAADAAgAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>RumPris.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Rum" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SKICENTER.UtrustningBokning">
+    <Position X="24.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAECAAAAAAIggQABAAAAACAA=</HashCode>
+      <FileName>UtrustningBokning.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Utrustning" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SKICENTER.RumBokning">
+    <Position X="20.5" Y="13" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAAIAAAAAAAIAAAAQAAAAEAAAAIEAAAAAAAAABAAAAI=</HashCode>
+      <FileName>RumBokning.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Rum" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SKICENTER.LektionBokning">
+    <Position X="23.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAABAAAAAIAAAAAAAAAEAAEAAAAAAAABAAAAEACAA=</HashCode>
+      <FileName>LektionBokning.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Lektion" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SKICENTER.UtrustningPris">
+    <Position X="28" Y="21" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAIAAAAAAgAAAAgAAACAAAgEAABAAAAAAQ=</HashCode>
+      <FileName>UtrustningPris.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Utrustning" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
