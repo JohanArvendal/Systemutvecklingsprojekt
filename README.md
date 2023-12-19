@@ -9,4 +9,4 @@ som avgör vilka delar och funktioner i systemet som man har tillgång till. Rol
 2) Bokningspersonal, Användarnamn och lösenord: BP1 
 3) Skidshopspersonal, Användarnamn och lösenord: SS3
 4) Ekonomipersonal, Användarnamn och lösenord: EP4
-5) Systemadministratö, Användarnamn och lösenord: SA5
+5) Systemadministratör, Användarnamn och lösenord: SA5
