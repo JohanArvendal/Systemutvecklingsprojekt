@@ -1,6 +1,6 @@
 Systemutvecklingsprojekt från systemvetarutbildning. Projektet innehöll huvudsakligen fyra delmoment: Verksamhetsanalys, kravanalys, programutveckling och projektplanering. Agilt arbetssätt utifrån SCRUM. 
 Målet med projektet var att skapa ett system som skulle stödja en påhittad verksamhet i deras drift och expansion av verksamheten. Verksamheten var ett ski-center som erbjöd en stor mängd tjänster så som;
-lägenheter, camping, konferenslokaler, skidskola, skoteruthyrning och uthyrning av skidutrustning. Systemet skulle stödja alla dessa tjänster samt förse personalen med uppdaterad information om aktuella bokningar. 
+lägenheter, camping, konferenslokaler, skidskola, skoteruthyrning och uthyrning av skidutrustning. Systemet skulle stödja dessa tjänster samt förse personalen med uppdaterad information om aktuella bokningar. 
 
 
 Det finns fem olika roller att logga in som. Varje roll har egen behörighet
